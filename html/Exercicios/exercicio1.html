@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercicio tabela</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<table border="1">
+			<th colspan="7">
+				<h1>Lista de Presença</h1>
+			</th>
+			
+			
+			<tr class="titulos">
+				<th>Trainee</th>
+				<th>Aula 1</th>
+				<th>Aula 2</th>
+				<th>Aula 3</th>
+				<th>Aula 4</th>
+				<th>Aula 5</th>
+				<th>Aula 6</th>
+			</tr>
+			<!-- aluno1 -->
+			<tr>
+				<td>Aluno 1</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Falta</td>
+				<td class="presente">Falta</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Falta</td>
+			</tr>
+			<!-- aluno2 -->
+			<tr>
+				<td>Aluno 2</td>
+				<td class="presente">Falta</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Falta</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+			</tr>
+			<!-- aluno3 -->
+			<tr>
+				<td>Aluno 3</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Falta</td>
+				<td class="presente">Falta</td>
+				<td class="presente">Presente</td>
+			</tr>
+			<!-- aluno4 -->
+			<tr>
+				<td>Aluno 4</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+				<td class="presente">Presente</td>
+			</tr>
+			<tr>
+				<td class="spacing" colspan="7"></td>
+			</tr>
+			<!-- total de faltas -->
+			<tr>
+				<td>Total de faltas</td>
+				<td class="presente">1</td>
+				<td class="presente">0</td>
+				<td class="presente">1</td>
+				<td class="presente">3</td>
+				<td class="presente">1</td>
+				<td class="presente">1</td>
+
+			</tr>
+		</table>
+	</body>	
+</html>
+
+<style>
+	.titulos {
+		font-weight: bold;
+		color: black;
+	}
+	th {
+		padding: 15px;
+	}
+	td {
+		padding: 15px;
+	}
+	.presente{
+		color: red;
+	}
+	.spacing{
+		height: 5px;
+	}
+</style>
