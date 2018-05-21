@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+        
+       <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="gastos.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<meta charset="utf-8"/>
+
+		<title> Controle de Gastos</title>
+
+	</head>
+	<body>
+		<header class="top">
+			<h1>Orçamento disponível em Maio de 2018</h1>
+	 		<p id="totalGrana">0.00</p>
+			<div class="overall" id="g1">
+				<table>
+					<tr>
+						<td>Ganhos</td>
+						<td id="tganhos">--</td>
+				</tr>
+			</table>
+			</div>
+			<div class="overall" id="d1">
+				<table>
+					<tr>
+						<td>Gastos</td>
+						<td id="tgastos">--</td>
+						<td id="tporc">--</td>
+				</tr>
+			</table>
+			</div>
+		</header>
+		<nav class="dataBar">
+			<form class="" id="forme" action="index.html" method="post" onsubmit="return enviar()">
+				<select class="" name="Tipo" id="tipo">
+					<option value="add">+</option>
+					<option value="sub">-</option>
+				</select>
+				<input type="text" name="Description" id="desc" placeholder="Adicione uma descrição..." value="" required>
+				<input type="number" name="Valor" id="grana" placeholder="Valor" value="" required>
+				<button type="button" onclick="enviar()" name="make" id="oki">oki</button>
+			</form>
+		</nav>
+		<div class="flexTable">
+			<table class="tabelinha" id="Ganhos">
+				<thead>
+					<tr>
+						<th colspan="2">Ganhos</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+			<table class="tabelinha" id="Despesas">
+				<thead>
+					<tr>
+						<th colspan="3">Gastos</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+		</div>
+		<footer>
+			<p>Icaro Rezende</p>
+			<p>Contato: icarorezende@cjr.org.br</p>
+		</footer>
+	</body>
+	<script type="text/javascript" src="gastos.js"></script>
+</html>

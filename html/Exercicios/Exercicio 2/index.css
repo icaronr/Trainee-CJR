@@ -1,0 +1,13 @@
+.tableclass{
+	border: 3px solid gray;
+	width: 60%;
+}
+
+.image{
+	width: 150px;
+	height: 150px;
+}
+
+.titulos{
+	font-weight: bold;
+}

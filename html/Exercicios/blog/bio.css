@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+.titulo {
+    background-color: rgb(120,30,50);
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin: 0;
+    border-bottom: 10px solid black;
+}
+
+#joao{
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+}
+
+.meio{
+    font-size: 20px;
+    width: calc((100% / 2) - 10em);
+    margin: 0 25%;
+    padding-bottom: 10%;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+blockquote{
+    background-color:#D3DDD4;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    border: 5px solid #C2CCCA;
+}
+
+cite {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 4em ;
+    width: 100%;
+    font-size: 18px;
+    /* position: fixed;
+    bottom: 0; */
+    /* clear: both; */
+}
+
+#foot{
+    padding: 10px;
+    font-weight: bolder;
+}
+#cleft{
+    clear: left;
+}
+#cright{
+    clear: right
+}
+.bloco{
+    float: right;
+}
+#clear {
+    clear: right;
+}
+.left{
+    float: left;
+}
+
+
+.foto {
+    position: relative;
+    top: 0;
+    float: right;
+    border: 10px solid black;
+}
+
+.borda {
+    background-color: rgb(52, 3, 68);
+    margin: 10px solid black;
+    text-align: center;
+}
+#menu{
+    position: relative;
+}
+.menu {
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+}
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: red;
+}
+
+.link:active {
+    color: green;
+}

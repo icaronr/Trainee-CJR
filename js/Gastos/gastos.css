@@ -1,0 +1,169 @@
+body{
+   font-family: 'Righteous', cursive;
+}
+.top{
+    background-color:lightyellow; 
+    text-align:center;  
+    height:18em; 
+}
+
+h1{
+    font-size: 2em; 
+    padding: 1em;
+}
+
+#totalGrana{
+    font-size: 2em;
+    padding: 6px;
+}
+
+.overall{ 
+    border-radius:  12px;
+    width: 16%;  
+    padding: 1em;
+    margin: 0.5em; 
+    text-align:center; 
+    margin: 1em 42%;
+    word-wrap:normal;
+}
+
+.overall table{
+    width: 100%;
+}
+
+#g1{
+    color: darkgreen; 
+    background-color: lightgreen;
+}
+
+#g1 td:nth-child(2n-1){
+    text-align: left;
+    width: 40%;
+}
+
+#g1 td:nth-child(2n){
+    text-align: center; 
+    width: 60%;
+}
+
+#d1{  
+    color: darkred;  
+    background-color: lightsalmon;
+}
+
+#d1 td:nth-child(3n-2){
+    text-align: left;
+    width: 30%;
+}
+
+#d1 td:nth-child(3n-1){
+    text-align: center;
+    width: 40%;
+}
+
+#d1 td:nth-child(3n){
+    text-align: center;
+    width: 20%;
+}
+
+input, select{  
+    font-size: 1em; 
+    margin: 1em;
+    box-sizing: border-box;
+}
+
+.dataBar{  
+    height: auto; 
+    background-color: #a3f2e2;
+    text-align:center;
+    border: 1px solid gray;
+}
+
+th{  
+    padding: 5px;
+}
+
+
+.tabelinha{ 
+    width: 30%;  
+    padding: 1em;
+    margin: 3em; 
+    text-align: left;
+}
+
+.tabelinha tr { 
+    border-bottom: 1px solid darkgray;  
+    height: 2em; 
+    padding: 1px;
+}
+
+.tabelinha tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+#Ganhos thead{  
+    color: green; 
+    font-size: 1.5em;  
+    font-weight: bold;
+}
+
+#Ganhos tbody td:nth-child(2n){  
+    text-align: right;
+}
+
+#Despesas thead{  
+    color: red; 
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+#Despesas tbody td:nth-child(3n-1){ 
+    text-align: right;
+}
+
+#Despesas tbody td:nth-child(3n){ 
+    text-align: center;
+}
+
+#oki{
+  background-image: image(ok.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 2em;
+  width: auto;
+  border: none;
+}
+
+.flexTable{
+  display: flex;
+  flex-wrap: nowrap;
+  background: linear-gradient(#c0dfc0, #ffffff);
+  justify-content: center;
+}
+
+.flex-container > table {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+footer{  
+    position: fixed; 
+    width: 100%;  
+    left: 0;
+    bottom: 0;  
+    text-align: center; 
+    padding: 1em 0;
+    border-top: 4px dotted lightgray;
+}
+
+#tporc {
+    font-size:  0.8em;
+    padding: 2px;
+    border-radius:  5px;
+    background-color:crimson;
+    color:indigo
+}

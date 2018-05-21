@@ -1,0 +1,22 @@
+h1{
+	color: green;
+}
+
+/*div{
+	background: rgb(144,20,5);
+}
+*/
+.div-classe{
+	background: purple;
+}
+
+#div-id{
+	background: #ff2bc1;
+}
+
+.borda{
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
