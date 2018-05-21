@@ -6,29 +6,35 @@ function enviar() {
     var desc = document.getElementById("desc").value;
     var grana = document.getElementById("grana").value;
     var tipo = document.getElementById("tipo").value;
-  //window.alert(tipo);
-    if (tipo == "add") {
-        addGanho(desc, grana);
+    if (grana > 0){
+        
+      //window.alert(tipo);
+        if (tipo == "add") {
+            addGanho(desc, grana);
+        }
+      else if (tipo == "sub"){
+        addDespesa(desc, grana);
+      }
+
+        //mostra os totais
+      document.getElementById("forme").reset();
+      var showMoney = document.getElementById("totalGrana");
+      showMoney.textContent = parseFloat(budget).toFixed(2);
+
+      var tganho = document.getElementById("tganhos");
+      tganho.textContent = parseFloat(tGanhos).toFixed(2);
+
+      var tgasto = document.getElementById("tgastos");
+      tgasto.textContent = parseFloat(tGastos).toFixed(2);
+
+      var num = tGastos/tGanhos;
+      var pct = (num*100).toFixed(1) + "%";
+
+      var tporc = document.getElementById("tporc");
+      tporc.textContent = pct;
+    }else{
+        alert("Insira um valor maior que 0!")
     }
-  else if (tipo == "sub"){
-    addDespesa(desc, grana);
-  }
-
-  document.getElementById("forme").reset();
-  var showMoney = document.getElementById("totalGrana");
-  showMoney.textContent = parseFloat(budget).toFixed(2);
-
-  var tganho = document.getElementById("tganhos");
-  tganho.textContent = parseFloat(tGanhos).toFixed(2);
-
-  var tgasto = document.getElementById("tgastos");
-  tgasto.textContent = parseFloat(tGastos).toFixed(2);
-
-  var num = tGastos/tGanhos;
-  var pct = (num*100).toFixed(1) + "%";
-
-  var tporc = document.getElementById("tporc");
-  tporc.textContent = pct;
 
   // alert(budget);
 }
