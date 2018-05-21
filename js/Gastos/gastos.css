@@ -21,7 +21,6 @@ h1{
     border-radius:  12px;
     width: 16%;  
     padding: 1em;
-    margin: 0.5em; 
     text-align:center; 
     margin: 1em 42%;
     word-wrap:normal;
@@ -126,12 +125,10 @@ th{
 }
 
 #oki{
-  background-image: image(ok.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-color: darksalmon;
   height: 2em;
   width: auto;
-  border: none;
+  border-radius: 10px;
 }
 
 .flexTable{
