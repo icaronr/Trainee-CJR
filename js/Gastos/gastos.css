@@ -2,6 +2,11 @@ body{
    font-family: 'Righteous', cursive;
 }
 .top{
+    background-image: url("bg_gastos.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: contain;
     background-color:lightyellow;
     text-align:center;
     height:18em;
