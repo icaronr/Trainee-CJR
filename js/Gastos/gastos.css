@@ -2,13 +2,13 @@ body{
    font-family: 'Righteous', cursive;
 }
 .top{
-    background-color:lightyellow; 
-    text-align:center;  
-    height:18em; 
+    background-color:lightyellow;
+    text-align:center;
+    height:18em;
 }
 
 h1{
-    font-size: 2em; 
+    font-size: 2em;
     padding: 1em;
 }
 
@@ -17,12 +17,12 @@ h1{
     padding: 6px;
 }
 
-.overall{ 
+.overall{
     border-radius:  12px;
-    width: 16%;  
+    width: 16%;
     padding: 1em;
-    margin: 0.5em; 
-    text-align:center; 
+    margin: 0.5em;
+    text-align:center;
     margin: 1em 42%;
     word-wrap:normal;
 }
@@ -32,7 +32,7 @@ h1{
 }
 
 #g1{
-    color: darkgreen; 
+    color: darkgreen;
     background-color: lightgreen;
 }
 
@@ -42,12 +42,12 @@ h1{
 }
 
 #g1 td:nth-child(2n){
-    text-align: center; 
+    text-align: center;
     width: 60%;
 }
 
-#d1{  
-    color: darkred;  
+#d1{
+    color: darkred;
     background-color: lightsalmon;
 }
 
@@ -66,34 +66,34 @@ h1{
     width: 20%;
 }
 
-input, select{  
-    font-size: 1em; 
+input, select{
+    font-size: 1em;
     margin: 1em;
     box-sizing: border-box;
 }
 
-.dataBar{  
-    height: auto; 
+.dataBar{
+    height: auto;
     background-color: #a3f2e2;
     text-align:center;
     border: 1px solid gray;
 }
 
-th{  
+th{
     padding: 5px;
 }
 
 
-.tabelinha{ 
-    width: 30%;  
+.tabelinha{
+    width: 30%;
     padding: 1em;
-    margin: 3em; 
+    margin: 3em;
     text-align: left;
 }
 
-.tabelinha tr { 
-    border-bottom: 1px solid darkgray;  
-    height: 2em; 
+.tabelinha tr {
+    border-bottom: 1px solid darkgray;
+    height: 2em;
     padding: 1px;
 }
 
@@ -101,34 +101,32 @@ th{
     background-color: #f5f5f5;
 }
 
-#Ganhos thead{  
-    color: green; 
-    font-size: 1.5em;  
+#Ganhos thead{
+    color: green;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
-#Ganhos tbody td:nth-child(2n){  
+#Ganhos tbody td:nth-child(2n){
     text-align: right;
 }
 
-#Despesas thead{  
-    color: red; 
-    font-size: 1.5em; 
+#Despesas thead{
+    color: red;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
-#Despesas tbody td:nth-child(3n-1){ 
+#Despesas tbody td:nth-child(3n-1){
     text-align: right;
 }
 
-#Despesas tbody td:nth-child(3n){ 
+#Despesas tbody td:nth-child(3n){
     text-align: center;
 }
 
 #oki{
-  background-image: image(ok.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+
   height: 2em;
   width: auto;
   border: none;
@@ -150,12 +148,12 @@ th{
   font-size: 30px;
 }
 
-footer{  
-    position: fixed; 
-    width: 100%;  
+footer{
+    position: fixed;
+    width: 100%;
     left: 0;
-    bottom: 0;  
-    text-align: center; 
+    bottom: 0;
+    text-align: center;
     padding: 1em 0;
     border-top: 4px dotted lightgray;
 }
