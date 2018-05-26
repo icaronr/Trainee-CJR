@@ -50,6 +50,9 @@ function calcPorc(valorG){
         let num = v1/tGanhos;
         let pct = (num*100).toFixed(1) + "%";
         rows[i].cells[2].textContent = pct;
+        num = v1/tGastos;
+        pct = (num*100).toFixed(1) + "%";
+        rows[i].cells[3].textContent = pct;
     }
     
     return valorG/tGanhos;
@@ -73,6 +76,9 @@ function addDespesa(descricao, valorGrana) {
     
   var num = calcPorc(valorGrana);
   var pct = (num*100).toFixed(1) + "%";
+    
+    let num1 = valorGrana/tGastos;
+    let pct1 = (num1*100).toFixed(1) + "%";
 
   var table = document.getElementById("Despesas").getElementsByTagName('tbody')[0];
   var row = table.insertRow(0);
@@ -80,8 +86,10 @@ function addDespesa(descricao, valorGrana) {
   var cell1 = row.insertCell(0);
   var cell2 = row.insertCell(1);
   var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
 
   cell1.innerHTML = descricao;
   cell2.innerHTML = parseFloat(valorGrana).toFixed(2);
   cell3.innerHTML = pct;
+    cell4.innerHTML = pct1;
 }
